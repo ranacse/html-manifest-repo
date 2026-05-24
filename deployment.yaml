@@ -39,7 +39,7 @@ stages:
         cd html-manifest-repo
         
         # উইন্ডোজ পাওয়ারশেল দিয়ে কুবারনেটিস ফাইল আপডেট (ভিডিওর sed এর ফাইনাল উইন্ডোজ রূপ)
-        (Get-Content deployment.yaml) -replace 'ranacse/sales-dashboard-v1:36
+        (Get-Content deployment.yaml) -replace 'ranacse/sales-dashboard-v1:37
         
         # গিটহাবে ফাইনাল পুশ
         git add deployment.yaml
